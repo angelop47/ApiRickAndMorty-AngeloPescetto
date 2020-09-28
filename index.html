@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and morty</title>
+  <link rel="stylesheet" href="estilos/styles.css">
+  <link rel="stylesheet" href="estilos/container2.css">
+  <link rel="stylesheet" href="estilos/container3.css">
+
+</head>
+
+<body>
+
+<div id="container">
+  <header class="titulo">
+      <h1>Bienvenido a la API de Rick And Morty</h1>
+  </header>
+  
+  <section id="contenido">   
+    <div id="character-name-container" class="character-name-container"></div>
+    <div id="character-description-container""></div>
+  </section>
+  <aside>
+    <div id="character-image-container" class="character-image-container"></div>
+    <button class="button learn-more" id="load-prev">Anterior</button>
+    <button class="button1 learn-more" id="load-next">Siguiente</button>
+  </aside>
+</div>
+
+<div id="container2">   
+  <header class="personajes-header">
+    <h1>Personajes</h1>
+  </header>
+  
+  <div class="contenedor-personajes">
+    <div id="card-container"></div>
+  </div>
+</div>
+  
+
+<div id="container3"> 
+  <header class="mis-personajes-header">
+    <h1>Mis Personajes</h1>
+  </header>
+
+  <div class="contenedor-mis-personajes" id="contenedor-mis-personajes">
+
+  </div>
+</div> 
+
+  <script type="module" src="js/app.js"></script>
+  <script src="js/album.js"></script>
+ <script src="js/personajeFav.js"></script>
+</body>
+
+</html>
